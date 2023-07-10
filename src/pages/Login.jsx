@@ -25,6 +25,7 @@ export default function Login() {
     setPassword("");
     navigate("/");
   };
+  //! Bu dispatch isteği reducera gidiyor,reducerda şartlara bakıyor eğer bi problem yoksa dispatch yaparak gelen istekleri(verileri) güncelliyor.
 
   return (
     <Container component="main" maxWidth="xs">
