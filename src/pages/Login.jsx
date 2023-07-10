@@ -20,6 +20,7 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(setUser({ email, password }));
+    //!👆Burada dispatch yaparak gelen verimizi state e yazma isteğimizi belirtiyoruz.
     setEmail("");
     setPassword("");
     navigate("/");
