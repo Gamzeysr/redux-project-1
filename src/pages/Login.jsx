@@ -82,11 +82,7 @@ export default function Login() {
       </Box>
 
       <Typography variant="body2" color="text.secondary" align="center">
-        {"Copyright © "}
-        <Link color="inherit" href="https://www.clarusway.com/">
-          Clarusway
-        </Link>{" "}
-        {new Date().getFullYear()}
+        {"Copyright © "} {new Date().getFullYear()}
         {"."}
       </Typography>
     </Container>
