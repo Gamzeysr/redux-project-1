@@ -29,5 +29,4 @@ export default authSlice.reducer;
 // }
 
 //!reducer
-
 // Bu kısım user bilgileri için olan kısım. burası login ile ilgili olan hem typelar hem reducerlar gibi her türlü seyler olacak.
